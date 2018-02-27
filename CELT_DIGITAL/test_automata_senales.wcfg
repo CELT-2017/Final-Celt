@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/jcala/Desktop/celt funciona/CELT_DIGITAL/test_automata_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_automata" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/test_automata/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/c0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0</obj_property>
+      <obj_property name="ObjectShortName">c0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/c1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/dato" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dato</obj_property>
+      <obj_property name="ObjectShortName">dato</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/captur" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">captur</obj_property>
+      <obj_property name="ObjectShortName">captur</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/uut/st" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">st</obj_property>
+      <obj_property name="ObjectShortName">st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_automata/uut/tmp_cont" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmp_cont[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_cont[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

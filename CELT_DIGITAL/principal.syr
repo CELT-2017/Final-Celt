@@ -1,0 +1,756 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: principal.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "principal.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "principal"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : principal
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/principal is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/principal.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd".
+WARNING:HDLParsers:3607 - Unit work/principal/a_principal is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/principal.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd".
+WARNING:HDLParsers:3607 - Unit work/AND_2 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/AND_2.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd".
+WARNING:HDLParsers:3607 - Unit work/AND_2/a_AND_2 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/AND_2.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd".
+WARNING:HDLParsers:3607 - Unit work/automata is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/automata.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd".
+WARNING:HDLParsers:3607 - Unit work/automata/a_automata is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/automata.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd".
+WARNING:HDLParsers:3607 - Unit work/comparador is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/comparador.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd".
+WARNING:HDLParsers:3607 - Unit work/comparador/a_comparador is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/comparador.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd".
+WARNING:HDLParsers:3607 - Unit work/gen_reloj is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/gen_reloj.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd".
+WARNING:HDLParsers:3607 - Unit work/gen_reloj/a_gen_reloj is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/gen_reloj.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd".
+WARNING:HDLParsers:3607 - Unit work/registro is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/registro.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd".
+WARNING:HDLParsers:3607 - Unit work/registro/a_registro is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/registro.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg_desp is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg_desp/a_reg_desp is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg_desp40 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp40.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg_desp40/a_reg_desp40 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp40.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd".
+WARNING:HDLParsers:3607 - Unit work/sumador40 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/sumador40.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd".
+WARNING:HDLParsers:3607 - Unit work/sumador40/a_sumador40 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/sumador40.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd".
+WARNING:HDLParsers:3607 - Unit work/visualizacion is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/visualizacion.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd".
+WARNING:HDLParsers:3607 - Unit work/visualizacion/a_visualizacion is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/visualizacion.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd".
+WARNING:HDLParsers:3607 - Unit work/decod7s is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/decod7s.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd".
+WARNING:HDLParsers:3607 - Unit work/decod7s/a_decod7s is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/decod7s.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX4x4 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/MUX4x4.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX4x4/a_MUX4x4 is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/MUX4x4.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd".
+WARNING:HDLParsers:3607 - Unit work/refresco is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/refresco.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd".
+WARNING:HDLParsers:3607 - Unit work/refresco/a_refresco is now defined in a different file.  It was defined in "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/refresco.vhd", and is now defined in "C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd".
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd" in Library work.
+Architecture a_mux4x4 of Entity mux4x4 is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd" in Library work.
+Architecture a_refresco of Entity refresco is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd" in Library work.
+Architecture a_decod7s of Entity decod7s is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd" in Library work.
+Architecture a_gen_reloj of Entity gen_reloj is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd" in Library work.
+Architecture a_reg_desp40 of Entity reg_desp40 is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd" in Library work.
+Architecture a_sumador40 of Entity sumador40 is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd" in Library work.
+Architecture a_comparador of Entity comparador is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd" in Library work.
+Architecture a_and_2 of Entity and_2 is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd" in Library work.
+Architecture a_automata of Entity automata is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd" in Library work.
+Architecture a_reg_desp of Entity reg_desp is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd" in Library work.
+Architecture a_registro of Entity registro is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd" in Library work.
+Architecture a_visualizacion of Entity visualizacion is up to date.
+Compiling vhdl file "C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd" in Library work.
+Architecture a_principal of Entity principal is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <principal> in library <work> (architecture <a_principal>).
+
+Analyzing hierarchy for entity <gen_reloj> in library <work> (architecture <a_gen_reloj>).
+
+Analyzing hierarchy for entity <reg_desp40> in library <work> (architecture <a_reg_desp40>).
+
+Analyzing hierarchy for entity <sumador40> in library <work> (architecture <a_sumador40>).
+
+Analyzing hierarchy for entity <comparador> in library <work> (architecture <a_comparador>).
+
+Analyzing hierarchy for entity <AND_2> in library <work> (architecture <a_and_2>).
+
+Analyzing hierarchy for entity <automata> in library <work> (architecture <a_automata>).
+
+Analyzing hierarchy for entity <reg_desp> in library <work> (architecture <a_reg_desp>).
+
+Analyzing hierarchy for entity <registro> in library <work> (architecture <a_registro>).
+
+Analyzing hierarchy for entity <visualizacion> in library <work> (architecture <a_visualizacion>).
+
+Analyzing hierarchy for entity <MUX4x4> in library <work> (architecture <a_mux4x4>).
+
+Analyzing hierarchy for entity <refresco> in library <work> (architecture <a_refresco>).
+
+Analyzing hierarchy for entity <decod7s> in library <work> (architecture <a_decod7s>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <principal> in library <work> (Architecture <a_principal>).
+Entity <principal> analyzed. Unit <principal> generated.
+
+Analyzing Entity <gen_reloj> in library <work> (Architecture <a_gen_reloj>).
+Entity <gen_reloj> analyzed. Unit <gen_reloj> generated.
+
+Analyzing Entity <reg_desp40> in library <work> (Architecture <a_reg_desp40>).
+Entity <reg_desp40> analyzed. Unit <reg_desp40> generated.
+
+Analyzing Entity <sumador40> in library <work> (Architecture <a_sumador40>).
+Entity <sumador40> analyzed. Unit <sumador40> generated.
+
+Analyzing Entity <comparador> in library <work> (Architecture <a_comparador>).
+Entity <comparador> analyzed. Unit <comparador> generated.
+
+Analyzing Entity <AND_2> in library <work> (Architecture <a_and_2>).
+Entity <AND_2> analyzed. Unit <AND_2> generated.
+
+Analyzing Entity <automata> in library <work> (Architecture <a_automata>).
+Entity <automata> analyzed. Unit <automata> generated.
+
+Analyzing Entity <reg_desp> in library <work> (Architecture <a_reg_desp>).
+Entity <reg_desp> analyzed. Unit <reg_desp> generated.
+
+Analyzing Entity <registro> in library <work> (Architecture <a_registro>).
+Entity <registro> analyzed. Unit <registro> generated.
+
+Analyzing Entity <visualizacion> in library <work> (Architecture <a_visualizacion>).
+Entity <visualizacion> analyzed. Unit <visualizacion> generated.
+
+Analyzing Entity <MUX4x4> in library <work> (Architecture <a_mux4x4>).
+Entity <MUX4x4> analyzed. Unit <MUX4x4> generated.
+
+Analyzing Entity <refresco> in library <work> (Architecture <a_refresco>).
+Entity <refresco> analyzed. Unit <refresco> generated.
+
+Analyzing Entity <decod7s> in library <work> (Architecture <a_decod7s>).
+Entity <decod7s> analyzed. Unit <decod7s> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <gen_reloj>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd".
+    Found 32-bit up counter for signal <cont_M>.
+    Found 33-bit comparator greatequal for signal <cont_M$cmp_ge0000> created at line 50.
+    Found 1-bit register for signal <S_M>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <gen_reloj> synthesized.
+
+
+Synthesizing Unit <reg_desp40>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd".
+    Found 40-bit register for signal <QS>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+Unit <reg_desp40> synthesized.
+
+
+Synthesizing Unit <sumador40>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd".
+    Found 6-bit adder for signal <SAL>.
+    Found 6-bit adder for signal <SAL$addsub0000> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0001> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0002> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0003> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0004> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0005> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0006> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0007> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0008> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0009> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0010> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0011> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0012> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0013> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0014> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0015> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0016> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0017> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0018> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0019> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0020> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0021> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0022> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0023> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0024> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0025> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0026> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0027> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0028> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0029> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0030> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0031> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0032> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0033> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0034> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0035> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0036> created at line 122.
+    Found 6-bit adder for signal <SAL$addsub0037> created at line 122.
+    Summary:
+	inferred  39 Adder/Subtractor(s).
+Unit <sumador40> synthesized.
+
+
+Synthesizing Unit <comparador>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <PGTQ>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <PLEQ>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 6-bit comparator equal for signal <PGTQ$cmp_eq0000> created at line 47.
+    Found 6-bit comparator greater for signal <PGTQ$cmp_gt0000> created at line 45.
+    Found 6-bit comparator less for signal <PGTQ$cmp_lt0000> created at line 47.
+    Summary:
+	inferred   3 Comparator(s).
+Unit <comparador> synthesized.
+
+
+Synthesizing Unit <AND_2>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd".
+Unit <AND_2> synthesized.
+
+
+Synthesizing Unit <automata>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd".
+WARNING:Xst:646 - Signal <tmp_cont> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <ST>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 7                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | esp_sync                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <add0000$add0000> created at line 63.
+    Found 8-bit register for signal <cont>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <automata> synthesized.
+
+
+Synthesizing Unit <reg_desp>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd".
+    Found 14-bit register for signal <QSAL>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <reg_desp> synthesized.
+
+
+Synthesizing Unit <registro>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd".
+    Found 14-bit register for signal <REG_SAL>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+
+Synthesizing Unit <MUX4x4>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <Y>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <MUX4x4> synthesized.
+
+
+Synthesizing Unit <refresco>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd".
+    Found 1-of-4 decoder for signal <AN>.
+    Found 16-bit up counter for signal <counter>.
+    Found 2-bit up counter for signal <SS>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 Decoder(s).
+Unit <refresco> synthesized.
+
+
+Synthesizing Unit <decod7s>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd".
+    Found 16x7-bit ROM for signal <S>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <decod7s> synthesized.
+
+
+Synthesizing Unit <visualizacion>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd".
+Unit <visualizacion> synthesized.
+
+
+Synthesizing Unit <principal>.
+    Related source file is "C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd".
+WARNING:Xst:646 - Signal <PG2_SAL> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <principal> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 40
+ 6-bit adder                                           : 39
+ 8-bit adder                                           : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 57
+ 1-bit register                                        : 55
+ 14-bit register                                       : 1
+ 8-bit register                                        : 1
+# Latches                                              : 4
+ 1-bit latch                                           : 4
+# Comparators                                          : 7
+ 33-bit comparator greatequal                          : 1
+ 6-bit comparator equal                                : 2
+ 6-bit comparator greater                              : 2
+ 6-bit comparator less                                 : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <AUT/ST/FSM> on signal <ST[1:3]> with gray encoding.
+----------------------
+ State    | Encoding
+----------------------
+ esp_sync | 000
+ avan_zm  | 001
+ muestreo | 011
+ dato0    | 110
+ dato1    | 111
+ datosync | 010
+----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 21
+ 6-bit adder                                           : 1
+ 6-bit adder carry in                                  : 19
+ 8-bit adder                                           : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 77
+ Flip-Flops                                            : 77
+# Latches                                              : 4
+ 1-bit latch                                           : 4
+# Comparators                                          : 7
+ 33-bit comparator greatequal                          : 1
+ 6-bit comparator equal                                : 2
+ 6-bit comparator greater                              : 2
+ 6-bit comparator less                                 : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <CMP2/PGTQ> of sequential type is unconnected in block <principal>.
+
+Optimizing unit <principal> ...
+
+Optimizing unit <reg_desp40> ...
+
+Optimizing unit <sumador40> ...
+
+Optimizing unit <automata> ...
+
+Optimizing unit <reg_desp> ...
+
+Optimizing unit <registro> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block principal, actual ratio is 14.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 130
+ Flip-Flops                                            : 130
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : principal.ngr
+Top Level Output File Name         : principal
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 373
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 50
+#      LUT2                        : 17
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 38
+#      LUT3_D                      : 1
+#      LUT3_L                      : 2
+#      LUT4                        : 131
+#      LUT4_L                      : 5
+#      MUXCY                       : 60
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 133
+#      FD                          : 45
+#      FDE                         : 29
+#      FDR                         : 49
+#      FDRE                        : 2
+#      FDS                         : 5
+#      LDC                         : 2
+#      LDP                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      137  out of    960    14%  
+ Number of Slice Flip Flops:            133  out of   1920     6%  
+ Number of 4 input LUTs:                254  out of   1920    13%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of     83    15%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------+------------------------+-------+
+Clock Signal                         | Clock buffer(FF name)  | Load  |
+-------------------------------------+------------------------+-------+
+CLK                                  | BUFGP                  | 51    |
+CMP2/PGTQ_or0000(CMP2/PGTQ_or0000:O) | NONE(*)(CMP2/PLEQ)     | 1     |
+CMP1/PGTQ_or0000(CMP1/PGTQ_or00001:O)| NONE(*)(CMP1/PGTQ)     | 2     |
+GEN/S_M1                             | BUFG                   | 79    |
+-------------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------+------------------------+-------+
+Control Signal                                | Buffer(FF name)        | Load  |
+----------------------------------------------+------------------------+-------+
+CMP1/PGTQ_cmp_gt0000(CMP1/PGTQ_cmp_gt000011:O)| NONE(CMP1/PGTQ)        | 2     |
+CMP2/PGTQ_cmp_gt0000(CMP2/PGTQ_cmp_gt000011:O)| NONE(CMP2/PLEQ)        | 1     |
+----------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.518ns (Maximum Frequency: 181.220MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 7.298ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.518ns (frequency: 181.220MHz)
+  Total number of paths / destination ports: 1949 / 104
+-------------------------------------------------------------------------
+Delay:               5.518ns (Levels of Logic = 3)
+  Source:            VIS/res/counter_9 (FF)
+  Destination:       VIS/res/SS_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: VIS/res/counter_9 to VIS/res/SS_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  VIS/res/counter_9 (VIS/res/counter_9)
+     LUT4:I0->O            1   0.612   0.509  VIS/res/SS_and0000110 (VIS/res/SS_and0000110)
+     LUT4:I0->O           19   0.612   0.952  VIS/res/SS_and0000170 (VIS/res/counter_cmp_eq0000)
+     LUT3:I2->O            2   0.612   0.380  VIS/res/SS_and00002 (VIS/res/SS_and0000)
+     FDRE:R                    0.795          VIS/res/SS_0
+    ----------------------------------------
+    Total                      5.518ns (3.145ns logic, 2.373ns route)
+                                       (57.0% logic, 43.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'GEN/S_M1'
+  Clock period: 5.285ns (frequency: 189.231MHz)
+  Total number of paths / destination ports: 318 / 112
+-------------------------------------------------------------------------
+Delay:               5.285ns (Levels of Logic = 3)
+  Source:            AUT/cont_3 (FF)
+  Destination:       AUT/cont_5 (FF)
+  Source Clock:      GEN/S_M1 rising
+  Destination Clock: GEN/S_M1 rising
+
+  Data Path: AUT/cont_3 to AUT/cont_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               8   0.514   0.673  AUT/cont_3 (AUT/cont_3)
+     LUT3:I2->O            5   0.612   0.568  AUT/cont_mux0000<2>2 (AUT/cont_mux0000<2>2)
+     LUT4:I2->O            5   0.612   0.541  AUT/ST_cmp_eq0001 (AUT/ST_cmp_eq0001)
+     LUT4:I3->O            1   0.612   0.357  AUT/cont_mux0000<5>83 (AUT/cont_mux0000<5>83)
+     FDS:S                     0.795          AUT/cont_5
+    ----------------------------------------
+    Total                      5.285ns (3.145ns logic, 2.140ns route)
+                                       (59.5% logic, 40.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'GEN/S_M1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            SIN (PAD)
+  Destination:       REG40/QS_0 (FF)
+  Destination Clock: GEN/S_M1 rising
+
+  Data Path: SIN to REG40/QS_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SIN_IBUF (SIN_IBUF)
+     FD:D                      0.268          REG40/QS_0
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 85 / 11
+-------------------------------------------------------------------------
+Offset:              7.298ns (Levels of Logic = 4)
+  Source:            VIS/res/SS_0 (FF)
+  Destination:       SEG7<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: VIS/res/SS_0 to SEG7<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            14   0.514   1.002  VIS/res/SS_0 (VIS/res/SS_0)
+     LUT3:I0->O            1   0.612   0.000  VIS/mux4/Mmux_Y_3 (VIS/mux4/Mmux_Y_3)
+     MUXF5:I1->O           7   0.278   0.754  VIS/mux4/Mmux_Y_2_f5 (VIS/Y_SAL<0>)
+     LUT4:I0->O            1   0.612   0.357  SEG7<3>1 (SEG7_3_OBUF)
+     OBUF:I->O                 3.169          SEG7_3_OBUF (SEG7<3>)
+    ----------------------------------------
+    Total                      7.298ns (5.185ns logic, 2.113ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'GEN/S_M1'
+  Total number of paths / destination ports: 98 / 7
+-------------------------------------------------------------------------
+Offset:              6.722ns (Levels of Logic = 4)
+  Source:            REGV/REG_SAL_2 (FF)
+  Destination:       SEG7<6> (PAD)
+  Source Clock:      GEN/S_M1 rising
+
+  Data Path: REGV/REG_SAL_2 to SEG7<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.426  REGV/REG_SAL_2 (REGV/REG_SAL_2)
+     LUT3:I1->O            1   0.612   0.000  VIS/mux4/Mmux_Y_42 (VIS/mux4/Mmux_Y_42)
+     MUXF5:I0->O           7   0.278   0.754  VIS/mux4/Mmux_Y_2_f5_1 (VIS/Y_SAL<2>)
+     LUT4:I0->O            1   0.612   0.357  SEG7<6>1 (SEG7_6_OBUF)
+     OBUF:I->O                 3.169          SEG7_6_OBUF (SEG7<6>)
+    ----------------------------------------
+    Total                      6.722ns (5.185ns logic, 1.537ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.71 secs
+ 
+--> 
+
+Total memory usage is 286252 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   31 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

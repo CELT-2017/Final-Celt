@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/jcala/Desktop/celt funciona/CELT_DIGITAL/test_comparador_isim_beh.exe" -prj "C:/Users/jcala/Desktop/celt funciona/CELT_DIGITAL/test_comparador_beh.prj" "work.test_comparador" 

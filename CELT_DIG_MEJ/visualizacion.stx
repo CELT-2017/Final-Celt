@@ -1,0 +1,44 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.56 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/MUX4x4.vhd" in Library work.
+Entity <MUX4x4> compiled.
+Entity <MUX4x4> (Architecture <a_MUX4x4>) compiled.
+Compiling vhdl file "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/refresco.vhd" in Library work.
+Entity <refresco> compiled.
+Entity <refresco> (Architecture <a_refresco>) compiled.
+Compiling vhdl file "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/decod7s.vhd" in Library work.
+Entity <decod7s> compiled.
+Entity <decod7s> (Architecture <a_decod7s>) compiled.
+Compiling vhdl file "C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIG_MEJ/visualizacion.vhd" in Library work.
+Entity <visualizacion> compiled.
+Entity <visualizacion> (Architecture <a_visualizacion>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.96 secs
+ 
+--> 
+
+Total memory usage is 273616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

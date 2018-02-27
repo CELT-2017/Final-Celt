@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jcala\Desktop\celt funciona\CELT_DIGITAL\principal.ncd
+OUTFILE=C:\Users\jcala\Desktop\celt funciona\CELT_DIGITAL\principal.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\jcala\Desktop\celt funciona\CELT_DIGITAL
+LICENSE=WebPack
+USER_INFO=211238472_0_0_214

@@ -1,0 +1,9 @@
+Added Component: Designator=P56(HDR1X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=P56-1
+Added Pin To Net: NetName=-5 Pin=P56-2
+Added Pin To Net: NetName=GND Pin=P56-3
+Added Member To Class: ClassName=Sheet1 Member=Component P56 Header 3

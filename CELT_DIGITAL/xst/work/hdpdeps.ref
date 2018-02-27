@@ -1,0 +1,97 @@
+V3 64
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd 2017/11/29.08:11:00 P.20131013
+EN work/AND_2 1512055267 FL C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND_2/a_AND_2 1512055268 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/AND_2.vhd EN work/AND_2 1512055267
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd 2017/11/29.08:11:02 P.20131013
+EN work/automata 1512055269 FL C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/automata/a_automata 1512055270 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/automata.vhd EN work/automata 1512055269
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd 2017/11/29.08:11:02 P.20131013
+EN work/comparador 1512055265 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparador/a_comparador 1512055266 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/comparador.vhd EN work/comparador 1512055265
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd 2017/11/29.08:11:04 P.20131013
+EN work/decod7s 1512055257 FL C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decod7s/a_decod7s 1512055258 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/decod7s.vhd EN work/decod7s 1512055257
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd 2017/11/29.08:11:04 P.20131013
+EN work/gen_reloj 1512055259 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/gen_reloj/a_gen_reloj 1512055260 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/gen_reloj.vhd EN work/gen_reloj 1512055259
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd 2017/11/29.08:11:04 P.20131013
+EN work/MUX4x4 1512055253 FL C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX4x4/a_MUX4x4 1512055254 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/MUX4x4.vhd EN work/MUX4x4 1512055253
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd 2017/11/29.08:11:12 P.20131013
+EN work/principal 1512055277 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/principal/a_principal 1512055278 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/principal.vhd EN work/principal 1512055277 \
+      CP gen_reloj CP reg_desp40 CP sumador40 CP comparador CP AND_2 CP automata \
+      CP reg_desp CP registro CP visualizacion
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd 2017/11/29.08:11:16 P.20131013
+EN work/refresco 1512055255 FL C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/refresco/a_refresco 1512055256 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/refresco.vhd EN work/refresco 1512055255
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd 2017/11/29.08:11:16 P.20131013
+EN work/registro 1512055273 FL C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/registro/a_registro 1512055274 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/registro.vhd EN work/registro 1512055273
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd 2017/11/29.08:11:16 P.20131013
+EN work/reg_desp 1512055271 FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg_desp/a_reg_desp 1512055272 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp.vhd EN work/reg_desp 1512055271
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd 2017/11/29.08:11:16 P.20131013
+EN work/reg_desp40 1512055261 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg_desp40/a_reg_desp40 1512055262 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/reg_desp40.vhd EN work/reg_desp40 1512055261
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd 2017/11/29.08:11:16 P.20131013
+EN work/sumador40 1512055263 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumador40/a_sumador40 1512055264 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/sumador40.vhd EN work/sumador40 1512055263
+FL C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd 2017/11/29.08:11:20 P.20131013
+EN work/visualizacion 1512055275 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/visualizacion/a_visualizacion 1512055276 \
+      FL C:/Users/alumno/Desktop/CELT_DIGITAL/visualizacion.vhd \
+      EN work/visualizacion 1512055275 CP MUX4x4 CP refresco CP decod7s
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/AND_2.vhd 2017/11/23.19:22:44 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/automata.vhd 2017/11/23.19:24:14 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/comparador.vhd 2017/11/23.19:25:27 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/decod7s.vhd 2017/11/23.19:29:21 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/gen_reloj.vhd 2017/11/23.19:31:21 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/MUX4x4.vhd 2017/11/23.19:34:32 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/principal.vhd 2017/11/23.20:35:16 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/refresco.vhd 2017/11/23.19:39:48 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/registro.vhd 2017/11/23.20:30:25 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp.vhd 2017/11/23.20:25:36 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/reg_desp40.vhd 2017/11/23.20:26:42 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/sumador40.vhd 2017/11/23.20:31:35 P.20131013
+FL C:/Users/Isabel/Desktop/Isabel/uni/tercero/CELT/CELT_DIGITAL/visualizacion.vhd 2017/11/23.20:32:58 P.20131013
